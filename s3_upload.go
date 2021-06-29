@@ -58,7 +58,7 @@ func DeleteFile(key string) error {
 
 	_, err := svc.DeleteObject(&s3.DeleteObjectInput{
 		Bucket: &config.S3.BucketName,
-		Key:    aws.String(createCustomerFileName(key)),
+		Key:    aws.String(key),
 	})
 
 	if err != nil {
