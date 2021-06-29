@@ -1,0 +1,19 @@
+{
+    "mysqlBinPath": "",
+    "customerName": "customerName",
+    "s3": {
+        "bucketName": "bucket",
+        "accessKey": "access",
+        "region": "region",
+        "secretKey": "secret"
+    },
+    "databases": [
+        {
+            "name": "db_name",
+            "username": "username",
+            "password": "password",
+            "times": ["12:00", "00:00"],
+            "retentionDays": 1
+        }
+    ]
+}
